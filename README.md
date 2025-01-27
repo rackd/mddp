@@ -34,7 +34,7 @@ cd mddp
 
 3. Optionally use pre-configured configuration files:
 ```
-cp preconfig/KAFKA_server.properties KAFKA_HOME/config/server.properties
+cp preconfig/KAFKA_server.properties $KAFKA_HOME/config/server.properties
 ```
 
 4. Setup development environment:
