@@ -18,6 +18,9 @@ MDDP is a high-throughput, scalable streaming Extract-Transform-Load (ETL) solut
 - Python Microservices: REST endpoints for frame extraction and motion detection using FastAPI and uvicorn.
 
 ##  Architecture Overview
+<img src="https://github.com/user-attachments/assets/756c794e-1709-46e5-a61f-2d9a74da32b0" width="750">
+<img src="https://github.com/user-attachments/assets/68b77e78-cf5b-4b84-90a2-570a5d4118be" width="750">
+
 
 ## Quick start
 
@@ -50,6 +53,6 @@ cp preconfig/KAFKA_server.properties KAFKA_HOME/config/server.properties
  ./stop.sh
 ```
 ## Reconfiguring & Production Tips
-- For production, Apache NiFi and Apache Kafka will have to be reconfigured. This includes security method, network addresses, clustering (if applicable), etc.
+- For production, Apache NiFi and Apache Kafka will have to be reconfigured. This includes security methods, network addresses, clustering (if applicable), etc.
 
 
