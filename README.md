@@ -1,4 +1,4 @@
-# Motion Detection Data Pipline (MDDP)
+# Motion Detection Data Pipeline (MDDP)
 
 MDDP is a high-throughput, scalable streaming Extract-Transform-Load (ETL) solution designed to continuously ingest and process video files in real time. By monitoring a filesystem directory, MDDP automatically detects new video data, performs motion detection on incoming video frames, and generates actionable insights. The pipeline leverages Apache NiFi for flow-based orchestration, Apache Kafka for event streaming, Elasticsearch for low-latency indexing and querying, and Python microservices for high-performance, algorithmic computations.
 
